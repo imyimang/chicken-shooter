@@ -2,7 +2,7 @@
 Uinty期末專題小遊戲實作
 
 ## 執行
-執行 `Build/My Project.exe`
+執行 `Build/My project.exe`
 
 ## 建置專案
 進入 Unity Hub
