@@ -48,7 +48,8 @@ public class MainControl : MonoBehaviour
             spriteRenderer.sprite = leftSprite;
         }
 
-        if (Input.GetKeyDown(KeyCode.UpArrow) && isGrounded)
+        // 當按下上箭頭或W鍵並且在地面時，執行跳躍
+        if ((Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.W)) && isGrounded)
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
         }
